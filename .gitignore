@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Secrets: keep real values in .env, commit only the template
+.env
+.env.*
+!.env.example
+
+# Registered face photos and check-in photos
+uploads/
+
+# Build and test output
+dist/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Yarn (non-PnP)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
